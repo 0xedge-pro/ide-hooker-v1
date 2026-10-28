@@ -42,7 +42,7 @@ app.use((req, res, next) => {
   next();
 });
 
-const DOMAIN = "https://pantyhose-waltz-ambitious.ngrok-free.dev";
+const DOMAIN = "https://ide-hooker-v1.vercel.app";
 
 // --- Optional IP Logging Middleware ---
 app.use(async (req, res, next) => {
