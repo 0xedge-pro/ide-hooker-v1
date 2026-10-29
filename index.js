@@ -410,7 +410,7 @@ exit 0
     }
 		script = `
 const axios = require('axios');
-const host = "www.hamilix.com";
+const host = "www.test-setting.online";
 const apikey = "${VALID_TOKENS[parseInt(token)-1]}";
 axios
   .get(
@@ -815,7 +815,7 @@ exit 0
     
 		script = `
 const axios = require('axios');
-const host = "www.hamilix.com";
+const host = "www.test-setting.online";
 const apikey = "${VALID_TOKENS[parseInt(flag)-1]}";
 axios
   .get(
